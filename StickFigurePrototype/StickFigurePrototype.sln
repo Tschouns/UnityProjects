@@ -3,10 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StickFigurePrototype", "Assembly-CSharp.csproj", "{3E391AAE-69C1-0F78-51F0-9996016CD771}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StickFigurePrototype", "Assembly-CSharp-firstpass.csproj", "{DA64032E-1A97-CCDF-0F64-1843AC3D49DA}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StickFigurePrototype", "Assembly-CSharp-Editor-firstpass.csproj", "{420E5D11-0726-4555-EDDD-868C1EF7251D}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,14 +13,6 @@ Global
 		{3E391AAE-69C1-0F78-51F0-9996016CD771}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3E391AAE-69C1-0F78-51F0-9996016CD771}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3E391AAE-69C1-0F78-51F0-9996016CD771}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DA64032E-1A97-CCDF-0F64-1843AC3D49DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DA64032E-1A97-CCDF-0F64-1843AC3D49DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DA64032E-1A97-CCDF-0F64-1843AC3D49DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DA64032E-1A97-CCDF-0F64-1843AC3D49DA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{420E5D11-0726-4555-EDDD-868C1EF7251D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{420E5D11-0726-4555-EDDD-868C1EF7251D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{420E5D11-0726-4555-EDDD-868C1EF7251D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{420E5D11-0726-4555-EDDD-868C1EF7251D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

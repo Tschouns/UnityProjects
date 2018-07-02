@@ -7,7 +7,7 @@ public class FollowCameraController : MonoBehaviour
     public GameObject followTarget;
     public float targetZ = -10;
     public float speedModifier = 1;
-    public Vector2 positionOffset;
+    public Vector2 TargetPositionOffset;
 
     // Use this for initialization
     void Start()
@@ -22,9 +22,12 @@ public class FollowCameraController : MonoBehaviour
             return;
         }
 
+        var targetX = this.followTarget.transform.position.x;
+        var targetY = this.followTarget.transform.position.y;
+
         var targetPosition = new Vector3(
-            this.followTarget.transform.position.x + this.positionOffset.x,
-            this.followTarget.transform.position.y + this.positionOffset.y,
+            targetX + this.TargetPositionOffset.x,
+            targetY + this.TargetPositionOffset.y,
             this.targetZ);
 
         var newPosition = Vector3.Lerp(this.transform.position, targetPosition, speedModifier * Time.deltaTime);
